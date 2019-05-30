@@ -20,7 +20,7 @@ app.get('/api/v1/', (req,res) => {
 
 app.get('/api/v1/url', (req,res) => {
     urls.find({}).then(urls => {
-        res.json(posts);
+        res.json(urls);
     }) 
 });
 
